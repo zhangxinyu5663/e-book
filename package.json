@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zhangxinyu5663/e-book/issues"
   },
-  "homepage": "https://github.com/zhangxinyu5663/e-book#readme"
+  "homepage": "https://github.com/zhangxinyu5663/e-book#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
 }
