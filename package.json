@@ -1,0 +1,19 @@
+{
+  "name": "e-book",
+  "version": "1.0.0",
+  "description": "在线电子书",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangxinyu5663/e-book.git"
+  },
+  "author": "zhangxinyu5663",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangxinyu5663/e-book/issues"
+  },
+  "homepage": "https://github.com/zhangxinyu5663/e-book#readme"
+}
