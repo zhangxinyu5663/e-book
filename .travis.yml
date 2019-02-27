@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "node"
+
+after_script:
+    - gitbook build
+    - cd ./_book
+    - git init
+    - git config user.name "${zhangxinyu5663}"
+    - git config user.email "${1976871412@qq.com}"
+    - git add .
+    - git commit -m "publish gitbook"
+    - git push --force --quiet "https://${ab598977bfbe9049b0a7a18f5f509d66518db074}@${github.com/zhangxinyu5663/e-book}" master:${gh-pages}
+
+branches:
+  only:
+    - master
